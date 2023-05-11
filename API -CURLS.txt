@@ -1,0 +1,28 @@
+===================================ADD Contacts =============================================
+curl --location 'localhost:8080/crud' \
+--header 'Content-Type: application/json' \
+--data ' {
+        "firstName": "XCKCCXX",
+        "lastName": "KarVe",
+        "phNumber": "9090909090"
+    
+    }
+
+'
+
+
+==========================Get Recent 10 Contacts =======================================================
+
+curl --location 'localhost:8080/crud' \
+--header 'Content-Type: application/json'
+
+
+========================== Search Contacts by Last Name ===============================================
+
+curl --location 'localhost:8080/crud/search?lastName=Ka' \
+--header 'Content-Type: application/json'
+
+============================ Delete Contact by ID ==========================================================
+
+curl --location --request DELETE 'localhost:8080/crud?id=1' \
+--header 'Content-Type: application/json'

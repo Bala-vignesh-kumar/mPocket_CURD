@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.ButtonCss {
+  position: absolute;
+  top: 165px;
+  right: 100px;
+  background-color: rgb(112, 112, 235);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.content{
+  text-align: left;
+   margin: 100px
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+  .search-input {
+    padding: 5px;
+    margin-left: 8px;
+    width: 300px; 
+    border: 1px solid;
+  }
+
+  .panelbox {
+    border-radius: 15px;
+    background-color: #e4eaef;
+    width: 500px;
+    height: 550px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .tittlename {
+    font-size: 37px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .formarea{
+    margin-left: 50px;  
+  }
+  .textbox {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+  }
+  .textboxname {
+    margin: 100px;
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    margin: 5px;
+  }
+  .savebtn {
+    font-size: 17px;
+    color: #fff;
+    background-color: rgb(24, 196, 156);
+    width: 30%;
+    margin: 20px;
+    padding: 0.4rem;
+    border-radius: 24PX;
+    border: none;
+    margin-left: 55%;
+  }
